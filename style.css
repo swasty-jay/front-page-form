@@ -1,0 +1,48 @@
+form{
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-left: 1px solid #ccc; 
+    border-right: 1px solid #ccc;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+label{
+    text-decoration: wavy;
+    display: block;
+    margin-bottom: 20px;
+}
+
+input, select{
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+
+}
+input[type= "submit"]{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#gender-options{
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+#gender-optins input[type="radio"]{
+    margin: 0 5px 0 0;
+}
+#gender-options label{
+
+    margin:0 10px 0 5px;
+    display: inline-block;
+}
+input[type=submit]:hover{
+    background-color: #3e8e41;
+}
